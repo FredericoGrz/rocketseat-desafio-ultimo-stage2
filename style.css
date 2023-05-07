@@ -1,7 +1,34 @@
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
+  min-height: 100vh;
+  background: #2F2E41;
+}
 
+.page {
+  padding-top: 71px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 section p {
