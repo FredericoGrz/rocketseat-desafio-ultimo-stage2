@@ -31,6 +31,61 @@ li a {
   font-size: 14px;
 }
 
+main {
+  margin: 100px auto 0;
+
+  width: 1092px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 82px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h1 span {
+  color: #00BFA6;
+}
+
 section p {
+  margin-top: 49px;
+
   font-family: 'Open Sans', sans-serif;
+  color: #C2C2C2;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+p span {
+  color: #00BFA6;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 157px;
+}
+
+.line {
+  width: 568px;
+  margin: 0 auto 27px;
+  border: #00BFA6 1px solid;
+}
+
+footer p {
+  color: #FFF;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
